@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: transparent;
+}
+
+button,
+input,
+img,
+span,
+a {
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.card__wrapper {
+  display: grid;
+  gap: 20px;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

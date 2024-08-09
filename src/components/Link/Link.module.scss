@@ -1,0 +1,15 @@
+.link {
+  color: #222;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  transition: 0.3s all;
+
+  &:hover {
+    color: #fe981a;
+  }
+
+  &:focus {
+    color: #fe981a;
+  }
+}
